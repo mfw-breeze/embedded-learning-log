@@ -17,7 +17,7 @@
 
 | 目录 | 内容 |
 |---|---|
-| [`demos/`](demos/) | 34 个可独立编译的 Keil 工程，一个外设一个 |
+| [`demos/`](demos/) | 33 个可独立编译的 Keil 工程，一个外设一个（**跟教程复现的练习**，我的项目在单独仓库） |
 | [`notes/`](notes/) | 外设与协议学习笔记（重点在“面试可能问什么”） |
 | [`pitfalls/`](pitfalls/) | **踩坑记录 —— 这个仓库最有价值的部分** |
 | [`resources.md`](resources.md) | 手册、工具、调试命令、资料 |
@@ -36,7 +36,7 @@
 
 > 图例：✅ 已完成 · 🚧 进行中 · ⬜ 计划中
 
-## demos 一览（34 个）
+## demos 一览（33 个）
 
 ### 基础
 
@@ -94,12 +94,6 @@
 | [29-wwdg](demos/29-wwdg/) | 窗口看门狗 WWDG |
 | [30-internal-flash](demos/30-internal-flash/) | 读写 STM32 内部 Flash |
 
-### 综合
-
-| 目录 | 内容 |
-|---|---|
-| [31-smart-fire-system](demos/31-smart-fire-system/) | 智能消防检测喷水系统（火焰 + 温度 + 水泵联动） |
-
 ## 踩坑记录 Top 2
 
 > 面试最常问“你遇到过什么困难”，这些就是我的答案。
@@ -120,4 +114,5 @@
 
 ## 相关仓库
 
+- ✅ **stm32-smart-fire-system** —— 智能消防监测终端（MQ-2 + DHT11 多传感器融合 / 三态告警状态机 / 继电器联动喷水）← **我的项目在这里**
 - 🚧 **stm32-industrial-terminal** —— 基于 STM32F103 + FreeRTOS 的工业测控终端（Modbus RTU / CAN 多节点 / IAP 升级），2026.11 起
