@@ -1,0 +1,47 @@
+# ===== Keil MDK 工程 =====
+# 编译产物目录（必须忽略，否则仓库会塞进几百个中间文件）
+Objects/
+Listings/
+DebugConfig/
+RTE/
+build/
+
+# 用户个人设置（不提交，否则每次打开 Keil 都显示"已修改"）
+*.uvguix.*
+*.uvoptx
+*.uvopt
+
+# 编译中间文件
+*.o
+*.d
+*.crf
+*.dep
+*.lnp
+*.lst
+*.map
+*.axf
+*.iex
+*.sct
+*.build_log.htm
+*.htm
+JLinkLog.txt
+JLinkSettings.ini
+
+# 固件产物
+*.hex
+*.bin
+*.elf
+*.out
+
+# ===== 系统与编辑器 =====
+Thumbs.db
+.DS_Store
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# ===== 其他 =====
+*.zip
+*.rar
+*.7z
