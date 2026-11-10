@@ -1,0 +1,7 @@
+#ifndef __MMYDMA_H
+#define __MMYDMA_H
+
+void MyDMA_Init(uint32_t AddrA,uint32_t AddrB,uint32_t Size);
+void MyDMA_transfer(void);
+
+#endif
